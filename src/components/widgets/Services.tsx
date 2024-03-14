@@ -17,7 +17,7 @@ const Services : React.FC<{ services: servicesProps }> = ({services}) => {
     >
       <Wrapper>
 
-        <div className={`text-white flex items-center border-b-2 hover:border-b-0 px-4 py-1  hover:border-t-2 hover:border-r-2 ${isHovered ? 'text-white' : 'text-[#0734ce]'}`}
+        <div className={`text-white flex items-center border-b-2 hover:border-b-0 px-4 py-1  hover:border-t-2 hover:border-r-2 ${isHovered ? 'text-white' : 'text-L_primary'}`}
       style={{
     background: isHovered ? 'linear-gradient(228deg, rgba(0,0,0,1) 10%, rgba(5,37,148,1) 41%, rgba(7,52,206,1) 94%)' : 'black',
 }}

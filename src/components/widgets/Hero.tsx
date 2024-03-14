@@ -5,6 +5,7 @@ import Wrapper from "@/components/shared/Wrapper";
 const Hero = () => {
   return (
     <section 
+    className="pt-20"
       style={{ 
         background: "linear-gradient(228deg, rgba(5,37,148,1) 0%, rgba(0,0,0,1) 30%, rgba(0,0,0,1) 70%, rgba(5,37,148,1) 100%)"
       }}
