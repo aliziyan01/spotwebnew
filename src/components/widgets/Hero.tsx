@@ -4,7 +4,11 @@ import Wrapper from "@/components/shared/Wrapper";
 
 const Hero = () => {
   return (
-    <section className="bg-black pt-20" 
+    <section 
+      style={{ 
+        background: "linear-gradient(228deg, rgba(5,37,148,1) 0%, rgba(0,0,0,1) 30%, rgba(0,0,0,1) 70%, rgba(5,37,148,1) 100%)"
+      }}
+    
     id="about">
       <Wrapper>
         <div className="flex flex-col items-center   sm:flex-row item-center  pb-10  ">

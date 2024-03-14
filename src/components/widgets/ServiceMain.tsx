@@ -1,9 +1,9 @@
 // pages/portfolio.js
-"use client";
+
 import Services from "@/components/widgets/Services";
 import Wrapper from "../shared/Wrapper";
 import { servicesData } from "@/components/data/servicesData";
-import React, { useEffect } from "react";
+
 
 
 const serviceMain = () => {

@@ -4,6 +4,7 @@ import Portfolio from "@/components/widgets/Portfolio";
 import Intro from "@/components/widgets/Intro";
 import Hero from "@/components/widgets/Hero";
 import ServicesMain from "@/components/widgets/ServiceMain";
+import OurTeam from "@/components/widgets/OurTeam";
 
 export default function Home() {
   return (
@@ -12,6 +13,7 @@ export default function Home() {
         <Intro />
         <Hero />
         <ServicesMain/>
+        <OurTeam />
         <Portfolio />
         <Testimonials />
         <Contact />

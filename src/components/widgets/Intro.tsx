@@ -170,6 +170,34 @@ const Intro = () => {
           ></path>
         </svg>
       </Link>
+
+      <Link
+  href="https://www.instagram.com"
+  className="m-1 h-9 w-9 rounded-full border-[0.1px] border-white uppercase leading-normal transition duration-150 ease-in-out hover:border-blue-600 hover:bg-black hover:bg-opacity-5 focus:outline-none focus:ring-0 dark:border-white"
+  style={{
+    boxShadow: isHovered4 ? '0 0 18px 5px rgba(0, 0, 255, 0.5)' : 'none'
+  }}
+  onMouseEnter={handleMouseEnter4}
+  onMouseLeave={handleMouseLeave4}
+>
+  <svg
+    aria-hidden="true"
+    focusable="false"
+    data-prefix="fab"
+    data-icon="instagram"
+    className="mx-auto h-full w-3 text-white hover:text-L_primary"
+    role="img"
+    xmlns="http://www.w3.org/2000/svg"
+    viewBox="0 0 448 512"
+  >
+    <path
+      fill="currentColor"
+      d="M224 141c-63.6 0-114.9 51.3-114.9 114.9S160.4 370.8 224 370.8 338.9 319.5 338.9 255 287.6 141 224 141zm0 194.1c-41.7 0-75.4-33.8-75.4-75.4s33.8-75.4 75.4-75.4 75.4 33.8 75.4 75.4-33.8 75.4-75.4 75.4zm126.4-212.8c0 18.9-15.3 34.2-34.2 34.2-18.9 0-34.2-15.3-34.2-34.2s15.3-34.2 34.2-34.2 34.2 15.3 34.2 34.2zm45.5 0c0-63.6-51.3-114.9-114.9-114.9S150.9 59.5 150.9 123.1c0 10.7 1.4 21.2 3.9 31.4H69.1v243.4c0 37.7 30.6 68.2 68.2 68.2h241.5c37.7 0 68.2-30.6 68.2-68.2V153.1h-78.2c2.4-10.2 3.9-20.7 3.9-31.4zm45.5-93.9c0 18.9-15.3 34.2-34.2 34.2s-34.2-15.3-34.2-34.2 15.3-34.2 34.2-34.2 34.2 15.3 34.2 34.2z"
+    ></path>
+  </svg>
+</Link>
+
+
     </div>
 
 
