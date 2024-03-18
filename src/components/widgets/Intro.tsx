@@ -1,9 +1,12 @@
 'use client'
+import favicon from "@/app/favicon.ico"
 import React, { useState } from 'react'
 import Wrapper from "@/components/shared/Wrapper";
 import Link from 'next/link';
 import { introData } from '@/components/data/introData';
-
+import Image from 'next/image';
+import Person from '@/assets/images/smiling-man-blue-jacket-studio.jpg'
+import '@/components/style/custom.css'
 
 const Intro = () => {
     const [isHovered1, setIsHovered1] = useState(false);
@@ -53,12 +56,20 @@ const Intro = () => {
     
   >
     <Wrapper>
+
     { 
    introData.map((item) => (
-    <div key={item.id} className=" px-4 "> 
-      <h1 className="text-slate-300 md:text-lg text-sm">PIONEERING EXCELLENCE IN SOFTWARE SOLUTION</h1>
+    <div key={item.id}  className="animate-drop-in flex md:flex-row flex-col">
+    <div  className='flex'>
+    <div  className=" px-4 "> 
+      <h1 className=" text-slate-300 md:text-lg text-sm">PIONEERING EXCELLENCE IN SOFTWARE SOLUTION</h1>
       <h1 className="text-white font-bold md:text-5xl pt-5 text-2xl ">SPOT LINKS <br></br> INNOVATIONS</h1>
-      <p className="pt-10 text-white text-sm md:text-lg">{item.para}</p>
+      <div className='flex flex-col-reverse items-center   sm:flex-row item-center'>
+      <p className="pt-5 text-white text-sm md:text-lg">{item.para}</p>
+    </div>
+     </div>
+    </div>
+    <Image src={favicon} alt="Hero Poster" className=" para sm:w-80 sm:h-80 w-60 h-60 pt-12 px-5 flex justify-center items-center  object-fill" />
     </div>
   ))
    }

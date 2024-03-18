@@ -15,18 +15,15 @@ import { FreeMode, Pagination } from "swiper/modules";
 
 const testimonials = () => {
   return (
-    <section style={{
-      background:
-        "linear-gradient(0deg, rgba(0,0,0,1) 30%, rgba(2,25,111,1) 77%)",
-    }}
+    <section 
     id="testimonials" 
-    className="pt-20">
+    className="bg-1 pt-20">
       <Wrapper  >
 
       <div className="  pb-6">
           <div className="items-center   md:flex-row item-center text-white pt-6">
             <div className="text-center ">
-              <h1 className="text-center font-bold text-3xl md:text-4xl ">
+              <h1 className="text-center font-black text-3xl md:text-4xl ">
               OUR CLIENT&lsquo;S STORIES
               </h1>
               <hr className="border-L_primary m-auto w-24 border-t-4 rounded-sm "></hr>
@@ -63,8 +60,8 @@ const testimonials = () => {
             >
               {TestimonalsData.map((item, i) => (
                 <SwiperSlide key={item.id}>
-                  <div className="flex flex-row lg:w-[320px] overflow-hidden cursor-pointer pb-12 justify-center">
-                    <div className="bg-L_primary  w-80 rounded-2xl   h-[500px]">
+                  <div className="test-card flex flex-row lg:w-[320px] overflow-hidden cursor-pointer pb-12 justify-center">
+                    <div className="test-card-cl bg-L_primary  w-80 rounded-2xl   h-[500px]">
                       <div key={i} className="relative">
                         <Image
                           className="w-28 h-[90px] pt-5"

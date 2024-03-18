@@ -17,7 +17,7 @@ const serviceMain = () => {
         <div className="pt-10 pb-10">
       <div className="items-center   md:flex-row item-center text-white ">
             <div className="text-center ">
-            <h1 className="text-center font-bold md:text-4xl  text-3xl"> Services</h1>
+            <h1 className="text-center font-black md:text-4xl  text-3xl"> Services</h1>
             <hr className="border-L_primary m-auto w-24 border-t-4 rounded-sm "></hr>
             </div>
         </div>

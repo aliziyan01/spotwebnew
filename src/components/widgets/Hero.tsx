@@ -1,6 +1,7 @@
 import Image from "next/image";
 import { introData } from "@/components/data/introData";
 import Wrapper from "@/components/shared/Wrapper";
+import '@/components/style/custom.css'
 
 const Hero = () => {
   return (
@@ -12,24 +13,30 @@ const Hero = () => {
     
     id="about">
       <Wrapper>
-        <div className="flex flex-col items-center   sm:flex-row item-center  pb-10  ">
+        <div className=" mission flex flex-col items-center   sm:flex-row item-center  pb-10  ">
             {/* left side */}
             {
                 introData.map((item,i)=>(
           <div key={item.id} className=" flex-1 p-4 ">
-            <Image src={item.img} alt="Hero Poster" className="rounded-3xl" />
+            <Image src={item.img} alt="Hero Poster" className=" mission_imgs rounded-3xl" />
           </div>
                 ))
 }
           {/* right side */}
-          <div className="flex-1  p-4  ">
-            <h1 className="font-bold   sm:text-3xl text-white text-5xl  md:text-4xl lg:text-5xl  flex justify-center ">
+          <div className="mission-text flex-1 px-10 p-4  ">
+            <h1 className="font-black   sm:text-3xl text-white text-5xl  md:text-4xl lg:text-5xl  flex justify-center ">
               OUR MISSION
             </h1>
-            <p className="mt-6 sm:text-[14] text-slate-600 text-[16px] md:text-lg">
-              A One and Quarter Years Panaverse DAO Earn as you Learn Program
-              Getting Ready for the Next Generation of the Internet
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est quam molestiae ipsam alias culpa incidunt voluptatibus cum optio. Vel natus eligendi ipsam odio eum sequi omnis quam perspiciatis, facilis magni.
+            <p className=" text-center font-light mt-6 sm:text-[11px] text-white text-[12px] md:text-[13px] lg:text-[16px] " >
+            At Spotlinks Innovations, our mission is twofold: to empower
+            businesses with cutting-edge software solutions and to champion the
+            creativity and ingenuity of today's youth. We believe in nurturing
+            young talent and providing them with a platform to shape the future
+            of technology. By fostering a culture of innovation and collaboration,
+            we aim to set new trends in the market of software, web, and design,
+            driving positive change and delivering unparalleled value to our clients
+            and community alike
+              
             </p>
           </div>
           

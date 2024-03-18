@@ -33,17 +33,7 @@ export const ourTeamData = [
         facebook:"https://www.facebook.com/abc",
         instagram:"https://www.instagram.com/abc",
     },
-    {
-        id:4,
-        image:person,
-        name:"Aleen",
-        title:"DEVELOPER",
-        phone:"123-456-7890",
-        email:"fheu@mla.com",
-        linkedin:"https://www.linkedin.com/in/abc",
-        facebook:"https://www.facebook.com/abc",
-        instagram:"https://www.instagram.com/abc",
-    },
+   
             ]
 
 

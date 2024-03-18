@@ -87,8 +87,8 @@ const Portfolio = () => {
       <Wrapper>
         <div className=" items-center pt-16 ">
           <div className=" absolute blur-[100px] -z-20 bg-L_primary w-96 h-96 mt-[7%] right-[40%] rounded-full  "></div>
-          <h1 className="text-center text-3xl md:text-4xl font-bold text-white">
-            Portfolio
+          <h1 className="text-center text-3xl md:text-4xl font-black text-white">
+            PORFOLIO
           </h1>
           <hr className="border-L_primary m-auto w-24 border-t-4 rounded-sm "></hr>
 
@@ -103,7 +103,7 @@ const Portfolio = () => {
               <button
                 onClick={() => handleCategoryChange("ALL")}
                 className={`btn lg:text-[16px] md:text-[13px] text-[11px] lg:px-5 md:px-3 px-3 py-1 ${
-                  category === "ALL" ? "bg-L_primary" : ""
+                  category === "ALL" ? "bg-L_primary transition-all duration-1000" : ""
                 } rounded-full `}
               >
                 ALL
@@ -111,7 +111,7 @@ const Portfolio = () => {
               <button
                 onClick={() => handleCategoryChange("UI/UX")}
                 className={`btn lg:text-[16px] md:text-[13px] text-[11px] lg:px-5 md:px-3 px-3 py-1 ${
-                  category === "UI/UX" ? "bg-L_primary" : ""
+                  category === "UI/UX" ? "bg-L_primary transition-all duration-1000" : ""
                 } rounded-full`}
               >
                 UI/UX
@@ -119,7 +119,7 @@ const Portfolio = () => {
               <button
                 onClick={() => handleCategoryChange("WEB")}
                 className={`btn lg:text-[16px] md:text-[13px] text-[11px] lg:px-5 md:px-3 px-3 py-1 ${
-                  category === "WEB" ? "bg-L_primary" : ""
+                  category === "WEB" ?  "bg-L_primary transition-all duration-1000" : ""
                 } rounded-full`}
               >
                 WEB
@@ -127,7 +127,7 @@ const Portfolio = () => {
               <button
                 onClick={() => handleCategoryChange("MARKETING")}
                 className={`btn lg:text-[16px] md:text-[13px] text-[11px] lg:px-5 md:px-3 px-3 py-1 md:py-2 ${
-                  category === "MARKETING" ? "bg-L_primary" : ""
+                  category === "MARKETING" ? "bg-L_primary transition-all duration-1000" : ""
                 } rounded-full`}
               >
                 MARKETING
